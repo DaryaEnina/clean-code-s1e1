@@ -45,7 +45,8 @@ h3 {
   list-style: none;
 }
 input,
-button {
+button,
+label {
   outline: none;
 }
 button {
