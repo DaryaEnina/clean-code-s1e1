@@ -10,10 +10,10 @@ body {
     display: block;
     text-align: right;
 }
-.main img {
+.main-img {
     width: 100%;
 }
-.main .more-inf {
+.more-inf {
     font-family: fantasy, cursive;
 }
 
@@ -42,7 +42,8 @@ ul {
 li, h3 {
     list-style:none;
 }
-input,button{
+input,
+button{
     outline:none;
 }
 button {
@@ -89,10 +90,10 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
-p > button:hover {
+.add:hover {
     color: #0fc57c;
 }
 
@@ -135,7 +136,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through
     color: #888;
 }
