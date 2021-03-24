@@ -18,10 +18,13 @@ body {
 }
 
 @media (max-width:768px) {
+
 .main { 
     text-align: center;
 }
+
 }
+
 .main-page {
     display: block;
     width: 500px;
@@ -102,7 +105,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
